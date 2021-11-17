@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.spacer {
+  width: 100%;
+  height: 100px;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+nav {
+  width: 100%;
+  height: 12vh;
+  background-color: #0b193e;
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  padding: 25px;
+  padding-left: 35px;
+  text-decoration: none;
+  color: #fff;
+  margin-left: 2rem;
+  font-size: 2rem;
+  margin-top: -1rem;
+  font-weight: bold;
+}
+nav .nav-bar {
+  padding: 20px;
+  display: flex;
+}
+nav .nav-bar .nav-bar_item {
+  list-style-type: none;
+  padding: 0px 20px;
+  font-size: 15px;
+}
+
+nav .nav-bar .nav-bar_item a {
+  position: relative;
+  display: block;
+  padding-bottom: 5px;
+  text-decoration: none;
+  color: #fff;
+}
+.main-content {
+  height: 100vh;
+  background-color: #0b193e;
+  opacity: 0.99;
+  display: flex;
+}
+.leftmain {
+  width: 50%;
+  color: white;
+}
+.content {
+  position: absolute;
+  top: 35%;
+  left: 10%;
+  font-size: 2rem;
+}
+.rightmain {
+  width: 50%;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+}
+.para {
+  width: 40%;
+  font-size: 1rem;
+}
+.button-sec {
+  padding: 25px;
+  padding-top: 4rem;
+}
+.button-sec-item-1 {
+  padding: 16px;
+  width: 13rem;
+  height: 4rem;
+  border-radius: 50em;
+  background-color: red;
+  color: white;
+  border: none;
+  margin-left: -2rem;
+  cursor: pointer;
+}
+
+.button-sec-item-2 {
+  padding: 16px;
+  width: 13rem;
+  height: 4rem;
+  border-radius: 50em;
+  background-color: #383b70;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
